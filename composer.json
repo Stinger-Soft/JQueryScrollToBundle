@@ -15,9 +15,9 @@
 		"symfony/framework-bundle" : ">=2.1"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Stinger\\JQueryScrollToBundle" : ""
+		"psr-4" : {
+			"StingerSoft\\JQueryScrollTo\\" : ""
 		}
 	},
-	"target-dir" : "Stinger/JQueryScrollToBundle"
+	"target-dir" : "StingerSoft/JQueryScrollToBundle"
 }
