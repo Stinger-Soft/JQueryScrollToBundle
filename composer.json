@@ -1,5 +1,5 @@
 {
-	"name" : "stinger/jquery-scrollto-bundle",
+	"name" : "stinger-soft/jquery-scrollto-bundle",
 	"type" : "symfony-bundle",
 	"description" : "Symfony Bundle jquery-scrollTo",
 	"keywords" : [],
