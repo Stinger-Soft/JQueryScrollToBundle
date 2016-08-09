@@ -74,6 +74,6 @@ Refer to the source code of the included files for license information
 
 # References
 
-1. http://srobbin.com/jquery-plugins/backstretch/
+1. https://github.com/flesler/jquery.scrollTo
 2. http://symfony.com
 
