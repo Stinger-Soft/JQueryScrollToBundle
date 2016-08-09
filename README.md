@@ -15,7 +15,7 @@ jquery-scrollTo v2.1.2 - https://github.com/flesler/jquery.scrollTo
 {
     "require": {
 		// ...
-        "stinger/jquery-scrollto-bundle": "~2.1.2"
+        "stinger-soft/jquery-scrollto-bundle": "~2.1.2"
     }
 }
 ```
@@ -29,7 +29,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Stinger\JQueryScrollToBundle\StingerJQueryScrollToBundle(),
+        new StingerSoft\JQueryScrollToBundle\StingerSoftJQueryScrollToBundle(),
         // ...
     );
 }
@@ -38,7 +38,7 @@ public function registerBundles()
 ### Download the bundle using Composer
 
 ``` bash
-$ php composer.phar update stinger/jquery-scrollto-bundle
+$ php composer.phar update stinger-soft/jquery-scrollto-bundle
 ```
 
 ### Install assets
@@ -61,7 +61,7 @@ Add the css and js file where needed:
 
 ``` html
 {% javascripts
-	'bundles/stingerjqueryscrollto/js/jquery.scrollTo.min.js'
+	'bundles/stingersoftjqueryscrollto/js/jquery.scrollTo.min.js'
 %}
 	<script src="{{ asset_url }}" ></script>
 {% endjavascripts %}
