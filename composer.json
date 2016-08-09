@@ -1,0 +1,23 @@
+{
+	"name" : "stinger/jquery-scrollto-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony Bundle jquery-scrollTo",
+	"keywords" : [],
+	"homepage" : "https://github.com/flesler/jquery.scrollTo",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Oliver Kotte",
+			"email" : "oliver.kotte@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\JQueryScrollToBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/JQueryScrollToBundle"
+}
